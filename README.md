@@ -13,31 +13,31 @@ To reproduce the results proposed in the paper, run
 ### Cora
 
 ```
-python --dataset cora --lr 0.0003 --alpha 0.9 --gamma 0.1 --num_epoch 100
+python run.py --dataset cora --lr 0.0003 --alpha 0.9 --gamma 0.1 --num_epoch 100
 ```
 
 ### Citeseer
 
 ```
-python --dataset citeseer --lr 0.0003 --alpha 0.9 --gamma 0.1 --num_epoch 100
+python run.py --dataset citeseer --lr 0.0003 --alpha 0.9 --gamma 0.1 --num_epoch 100
 ```
 
 ### PubMed
 
 ```
-python --dataset pubmed --lr 0.0005 --alpha 0.6 --gamma 0.4 --num_epoch 400
+python run.py --dataset pubmed --lr 0.0005 --alpha 0.6 --gamma 0.4 --num_epoch 400
 ```
 
 ### ACM
 
 ```
-python --dataset ACM --lr 0.0001 --alpha 0.7 --gamma 0.2 --num_epoch 200
+python run.py --dataset ACM --lr 0.0001 --alpha 0.7 --gamma 0.2 --num_epoch 200
 ```
 
 ### Flickr
 
 ```
-python --dataset Flickr --lr 0.0005 --alpha 0.3 --gamma 0.4 --num_epoch 1500
+python run.py --dataset Flickr --lr 0.0005 --alpha 0.3 --gamma 0.4 --num_epoch 1500
 ```
 
 If you find our work useful in your research, please consider citing:
