@@ -45,7 +45,7 @@ python run.py --dataset Flickr --lr 0.0005 --alpha 0.3 --gamma 0.4 --num_epoch 1
 
 ### Environment
 
-The code is tested under conda environment (py 3.7.15) with these additional lib installed: 
+The code is tested under conda environment (py 3.7.15) with these additional libs installed: 
 
 Please let us know if you find other libs are also required. 
 
